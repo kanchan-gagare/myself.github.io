@@ -1,0 +1,264 @@
+body{
+margin:0px auto;
+width:100%;
+}
+nav ul li{
+  list-style-type: none;
+  float: left;
+  font-size: 22px;
+  padding-right: 2.5em;
+color:#000;
+
+}
+nav ul{
+  float: right;
+
+}
+nav{
+  width: 100% auto;
+  height: 50px;
+background: #f15278;
+}
+nav a{
+  text-decoration: none;
+  color: #000;
+}
+
+.home{
+  background:url("https://img.freepik.com/free-vector/watercolor-floral-background-with-soft-colors_52683-28620.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 48px;
+  color:#000000;
+  display: table;
+  height: 60vh;
+  width:100%;
+  padding:5px;
+}
+.inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+.home .inner img{
+  border-radius: 100%;
+  width:250px;
+  height: auto;
+}
+.about{
+  background:url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-flower-background-banner-image_174842.jpg");
+color:#000000;
+  display: table;
+  height: 40vh;
+  width: 100%;
+  float: left;
+  padding: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.about .inner{
+
+  width: 70%;
+  float: left;
+  padding: 50px;
+  padding-top: 75px;
+  padding-left: 50px;
+  }
+
+.about .inner h1{
+  font-size: 42px;
+  color:#000;
+    margin-left: 60%;
+}
+
+.about .inner p{
+  font-size: 24px;
+    margin-left: 25%;
+  color:#000;
+}
+
+ .education{
+   background-color: #FFBCBC;
+   display: table;
+   height:80vh;
+   width: 100%;
+ }
+ .education h1{
+   font-size: 42px;
+   text-align:center;
+
+
+ }
+ .education .inner div {
+  width: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+  text-align: center;
+ }
+.education .inner div p {
+   font-size: 20px;
+ }
+ .education .inner div img{
+   width: 50%;
+   height: auto;
+ }
+
+ .hobbies{
+   background-color: #dc94ad;
+   display: table;
+   height:80vh;
+   width: 100%;
+ }
+
+ .hobbies h1{
+
+   font-size: 42px;
+   text-align:center;
+
+ }
+ .hobbies .inner div {
+  width: 30%;
+    margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+  text-align: center;
+ }
+.hobbies .inner div p {
+   font-size: 20px;
+ }
+ .hobbies .inner div img{
+   width: 50%;
+   height: auto;
+ }
+
+
+.skills{
+  display:table;
+  float: left;
+
+  height:50vh;
+  width: 100%;
+  background: url("https://assets.justinmind.com/wp-content/uploads/2020/02/website-background-design-guide.png");
+  background-repeat: no repeat;
+  background-size: cover;
+
+}
+.skills .inner{
+  background-color: rgba(0,0,0,0.7);
+  height:50vh;
+  width: 100%;
+font-size: 30px;
+  padding: 30px;
+  color:#fff;
+
+}
+.skills h1{
+  margin-left: 47%;
+}
+.skills .inner div ul li{
+  display: table-cell;
+  list-style-type: none;
+  float:left;
+  font-size: 25px;
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 5%;
+
+}
+.skills .inner div ul li{
+  display: table;
+  float: left;
+}
+.contact{
+  background-color: #c0c0c0;
+ padding: 0px;
+}
+.contact h1{
+  font-size: 30px;
+  margin-left: 47%;
+}
+.contact p{
+  margin-left: 47%;
+  font-size: 20px;
+}
+
+
+/* responsive desingning*/
+@media(min-width:320px)and (max-width:767px){
+
+  .home .inner img{
+    padding-top: 100px;
+  }
+  #about{
+    background: burlywood:important;
+      }
+  .about .inner{
+    width:95%;
+    padding: 25px;
+  }
+  .about .inner p{
+    font-size: 18px;
+    text-align: justify;
+  }
+  .education .inner div , .hobbies .inner div , .skills .inner div{
+    width: 100%;
+  }
+  .hobbies .inner div{
+    border-bottom: 2px solid #d3d3d3;
+    width: 100%;
+  }
+}
+
+
+/*@media(min-width:768px)and (max-width:1023px){
+  .home .inner img{
+    padding-top: 100px;
+  }
+  #about{
+    background: burlywood:important;
+      }
+  .about .inner{
+    width:100%;
+    padding: 25px;
+  }
+  .about .inner p{
+    font-size: 25px;
+    text-align: justify;
+  }
+  .education .inner div , .hobbies .inner div , .skills .inner div{
+    width: 100%;
+  }
+  .hobbies .inner div{
+    border-bottom: 2px solid #d3d3d3;
+  }
+}
+
+
+@media(min-width:1024px)and (max-width:1439px){
+  .home .inner img{
+    padding-top: 100px;
+
+  }
+  #about{
+    background: burlywood:important;
+      }
+  .about .inner{
+    width:100%;
+    padding: 25px;
+  }
+  .about .inner p{
+    font-size: 25px;
+    text-align: justify;
+  }
+  .education .inner div , .hobbies .inner div , .skills .inner div{
+    width: 100%;
+  }
+  .hobbies .inner div{
+    border-bottom: 2px solid #d3d3d3;
+    width: 100%;
+  }
+}
+*/
