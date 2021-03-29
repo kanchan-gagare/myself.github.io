@@ -23,7 +23,9 @@ nav a{
   text-decoration: none;
   color: #000;
 }
-
+nav a:hover{
+color:#000011;
+}
 .home{
   background:url("https://img.freepik.com/free-vector/watercolor-floral-background-with-soft-colors_52683-28620.jpg?size=626&ext=jpg");
   background-size: cover;
